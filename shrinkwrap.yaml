@@ -1,0 +1,139 @@
+dependencies:
+  fs: 0.0.2
+  http: 0.0.0
+  mysql: 2.18.1
+  sys: 0.0.1
+  underscore: 1.9.2
+  url: 0.11.0
+  vector2-node: 0.0.3
+  ws: 1.1.5
+packages:
+  /bignumber.js/9.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-t/OYhhJ2SD+YGBQcjY8GzzDHEk9f3nerxjtfa6tlMXfe7frs/WozhvCNoGvpM0P3bNf3Gq5ZRMlGr5f3r4/N8A==
+  /core-util-is/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+  /fs/0.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-4fJE7zkzwbKmS9R5kTYGDQ9ZFPg=
+  /http/0.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-huYybSnF0Dnen6xYSkVon5KfT3I=
+  /inherits/2.0.4:
+    dev: false
+    resolution:
+      integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
+  /isarray/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+  /mysql/2.18.1:
+    dependencies:
+      bignumber.js: 9.0.0
+      readable-stream: 2.3.7
+      safe-buffer: 5.1.2
+      sqlstring: 2.3.1
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha512-Bca+gk2YWmqp2Uf6k5NFEurwY/0td0cpebAucFpY/3jhrwrVGuxU2uQFCHjU19SJfje0yQvi+rVWdq78hR5lig==
+  /options/0.0.6:
+    dev: false
+    engines:
+      node: '>=0.4.0'
+    resolution:
+      integrity: sha1-7CLTEoBrtT5zF3Pnza788cZDEo8=
+  /process-nextick-args/2.0.1:
+    dev: false
+    resolution:
+      integrity: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
+  /punycode/1.3.2:
+    dev: false
+    resolution:
+      integrity: sha1-llOgNvt8HuQjQvIyXM7v6jkmxI0=
+  /querystring/0.2.0:
+    dev: false
+    engines:
+      node: '>=0.4.x'
+    resolution:
+      integrity: sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
+  /readable-stream/2.3.7:
+    dependencies:
+      core-util-is: 1.0.2
+      inherits: 2.0.4
+      isarray: 1.0.0
+      process-nextick-args: 2.0.1
+      safe-buffer: 5.1.2
+      string_decoder: 1.1.1
+      util-deprecate: 1.0.2
+    dev: false
+    resolution:
+      integrity: sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==
+  /safe-buffer/5.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+  /sqlstring/2.3.1:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-R1OT/56RR5rqYtyvDKPRSYOn+0A=
+  /string_decoder/1.1.1:
+    dependencies:
+      safe-buffer: 5.1.2
+    dev: false
+    resolution:
+      integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
+  /sys/0.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-NIDMaVcUkFt6vOUKVaWjmFmX5hk=
+  /ultron/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-rOEWq1V80Zc4ak6I9GhTeMiy5Po=
+  /underscore/1.9.2:
+    dev: false
+    resolution:
+      integrity: sha512-D39qtimx0c1fI3ya1Lnhk3E9nONswSKhnffBI0gME9C99fYOkNi04xs8K6pePLhvl1frbDemkaBQ5ikWllR2HQ==
+  /url/0.11.0:
+    dependencies:
+      punycode: 1.3.2
+      querystring: 0.2.0
+    dev: false
+    resolution:
+      integrity: sha1-ODjpfPxgUh63PFJajlW/3Z4uKPE=
+  /util-deprecate/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+  /vector2-node/0.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-bKy1Ja9VETiYhJQpdPrenzzuQIU=
+  /ws/1.1.5:
+    dependencies:
+      options: 0.0.6
+      ultron: 1.0.2
+    dev: false
+    resolution:
+      integrity: sha512-o3KqipXNUdS7wpQzBHSe180lBGO60SoK0yVo3CYJgb2MkobuWuBX6dhkYP5ORCLd55y+SaflMOV5fqAB53ux4w==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  fs: ^0.0.2
+  http: ^0.0.0
+  mysql: ^2.10.2
+  sys: ^0.0.1
+  underscore: ^1.8.3
+  url: ^0.11.0
+  vector2-node: ^0.0.3
+  ws: ^1.0.1
